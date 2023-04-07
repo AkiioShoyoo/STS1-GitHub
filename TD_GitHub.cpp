@@ -58,13 +58,51 @@ int plusGrand(int a, int b, int c)
 }
 
 //Fonctions réalisées par l'étudiant 2 :
+bool estPair(int nb)
+{
+    int x;
+    x = nb % 2 == 0;
+    if(x==2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+int sommeNombre(int x) 
+{
+    int somme = 0;
+    for (int i = x; i >= 1; i--) 
+    {
+        somme += i;
+    }
+    return somme;
+}
 
 
+double salaireNet(double salaireBrut) 
+{
+  double chargesSalariales = salaireBrut * 0.23;
+  double salaireNet = salaireBrut - chargesSalariales;
+  return salaireNet;
+}
 
-
-
-
-
+int plusPetit(int a, int b, int c) 
+{
+  int plusPetit = a;
+  if (b < plusPetit) 
+  {
+    plusPetit = b;
+  }
+  if (c < plusPetit) 
+  {
+    plusPetit = c;
+  }
+  return plusPetit;
+} 
 
 
 
