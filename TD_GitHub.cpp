@@ -118,7 +118,7 @@ int plusPetit(int a, int b, int c)
 
 
 
-//Fonctions réalisées par l'étudiant 3 :
+//Fonctions réalisées par l'étudiant 3 : BENASSIE Noé
 
 bool estImpair(int nb)
 {
