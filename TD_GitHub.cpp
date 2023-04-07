@@ -1,4 +1,4 @@
-//Fonctions réalisées par l'étudiant 1 :
+//Fonctions réalisées par l'étudiant 1 : CHOMEL Cantin
 
 /////////////////////////
 // FONCTION estMajeur //
@@ -57,7 +57,12 @@ int plusGrand(int a, int b, int c)
     return max;
 }
 
-//Fonctions réalisées par l'étudiant 2 :
+//Fonctions réalisées par l'étudiant 2 : JOLY Téo
+
+///////////////////////
+// FONCTION estPair //
+/////////////////////
+
 bool estPair(int nb)
 {
     int x;
@@ -72,6 +77,10 @@ bool estPair(int nb)
     }
 }
 
+///////////////////////////
+// FONCTION sommeNombre //
+/////////////////////////
+
 int sommeNombre(int x) 
 {
     int somme = 0;
@@ -82,6 +91,9 @@ int sommeNombre(int x)
     return somme;
 }
 
+//////////////////////////
+// FONCTION salaireNet //
+////////////////////////
 
 double salaireNet(double salaireBrut) 
 {
